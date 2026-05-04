@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
+import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { AlertTriangle, CheckCircle2, Clock, XCircle, Search, FileText, ChevronRight } from "lucide-react";
 
@@ -52,7 +52,7 @@ export default function CpTracker() {
   return (
     <div className="p-6 space-y-6">
       <div>
-        <h1 className="text-2xl font-bold text-foreground">CP Milestone & Drawdown Tracker</h1>
+        <h1 className="text-2xl font-bold text-foreground">Working prototype of CP Checker, made by Viki !!</h1>
         <p className="text-muted-foreground mt-1">Single source of truth for Construction Packages, Belfius conditions, and contractor deliverables.</p>
       </div>
 
